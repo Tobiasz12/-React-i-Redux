@@ -8,6 +8,7 @@ import reducer from './reducer.js';
 import {ADD_COMMENT} from './actions.js';
 import addComment from './actions.js';
 
+const store = createStore(reducer);
 
 ReactDOM.render(
   <Provider store={store}>
@@ -17,7 +18,6 @@ ReactDOM.render(
 );
 registerServiceWorker();
 
-const store = createStore(reducer);
 
 store.dispatch(addComment('pierwszy komentarz'));
 store.dispatch(addComment('drugi komentarz'));
