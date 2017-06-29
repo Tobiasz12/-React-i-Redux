@@ -11,7 +11,7 @@ import {THUMB_DOWN_COMMENT} from './actions'
                 id: action.id,
                 text: action.text,
                 votes: 0
-            }, ...state.comments];
+            }, ...state];
         case THUMB_UP_COMMENT:
             return state.map(comment => {
                 comment.id === action.id ? comment.votes + 1 : comment;

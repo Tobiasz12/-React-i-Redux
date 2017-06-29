@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 import {Provider} from 'react-redux';
 import {createStore} from 'redux';
-import reducer from './reducer.js';
-import {ADD_COMMENT} from './actions.js';
-import addComment from './actions.js';
-
+import reducer from './reducer';
+import {ADD_COMMENT} from './actions'
+import addComment from './actions';
 const store = createStore(reducer);
 
 ReactDOM.render(
@@ -16,7 +14,6 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
-registerServiceWorker();
 
 
 store.dispatch(addComment('pierwszy komentarz'));
