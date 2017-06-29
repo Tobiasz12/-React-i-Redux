@@ -42,4 +42,4 @@ function editComment(id,text) {
     }
 }
 
-export default {thumbUpComment, addComment};
+export default addComment;

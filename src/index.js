@@ -6,6 +6,7 @@ import {createStore} from 'redux';
 import reducer from './reducer';
 import {ADD_COMMENT} from './actions'
 import addComment from './actions';
+
 const store = createStore(reducer);
 
 ReactDOM.render(
