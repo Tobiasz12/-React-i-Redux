@@ -6,8 +6,8 @@ import connect from './CommentsListContainer';
 const App = () => {
   return (
     <div className="App">
-      Tu będzie lista komentarzyy
-      <CommentsList/>
+     lista komentarzy
+     <CommentsList />
     </div>
   );
 };
