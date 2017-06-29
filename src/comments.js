@@ -34,5 +34,4 @@ import {THUMB_DOWN_COMMENT} from './actions'
             return state;
     }
 }
-
 export default comments;
