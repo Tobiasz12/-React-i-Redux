@@ -4,7 +4,8 @@ import {thumbUpComment, thumbsDown, removeComment, addComment} from '../actions/
 
 const mapDispatchToProps = dispatch => ({
   thumbUpComment: (id) => dispatch(thumbUpComment(id)),
-  thumbsDown: (id) => dispatch(thumbsDown(id))
+  thumbsDown: (id) => dispatch(thumbsDown(id)),
+  removeComment: (id) => dispatch(removeComment(id))
 
 });
 
