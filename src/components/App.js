@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Comment from './Comment';
 import CommentsList from './CommentsList';
 import connect from './CommentsListContainer';
 
