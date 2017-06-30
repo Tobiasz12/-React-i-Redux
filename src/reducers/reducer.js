@@ -1,7 +1,7 @@
 
-import { combineReducers } from 'redux';
+import {combineReducers} from 'redux';
 import comments from './comments';
-import users from './users';
+import {users} from '../actions/users';
 
 const reducer = combineReducers({
   comments,
