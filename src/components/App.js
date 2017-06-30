@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import CommentsList from './CommentsList';
-import connect from './CommentsListContainer';
 
 const App = () => {
   return (
